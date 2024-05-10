@@ -43,7 +43,7 @@ class CtKhisController extends Controller
 
         return response()->json([
             'status' => 'error',
-            'message' => 'Missing start_date or end_date',
+            'message' => 'Missing Start Date or End Date',
         ], 500);
     }
 }
