@@ -51,7 +51,7 @@ return new class extends Migration {
             $table->timestamps();
         });
 
-        Schema::table('ct_khis', function (Blueprint $table) {
+        Schema::table('fy23_datims', function (Blueprint $table) {
             $table->index(['DATIMOrgId', 'siteCode', 'ReportQuarter']);
         });
     }
